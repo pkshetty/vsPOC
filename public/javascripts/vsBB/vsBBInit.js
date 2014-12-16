@@ -11,7 +11,7 @@ define('vsBB/vsBBInit', ['vsBB/vsBBController/vsBBProfileController', 'jquery'],
     },
 
     init: function (options) {
-      alert("init called....");
+      alert("init called>>>>");
       var self = this;
       $.extend(this.options, options);
       console.log("vsBBProfileController INIT CALLING");
