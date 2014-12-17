@@ -1,0 +1,822 @@
+/* 
+    Created on : Nov 6, 2014, 12:28:40 PM
+*/
+
+/* --- Carosel Start ---*/
+.carousel {
+    position: relative;
+    padding-top: 10px;
+}
+.carousel-inner-background {
+    background-color: rgb(4, 25, 40);
+    background-color: rgba(4, 25, 40, 0.4);
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#00041928, endColorstr=#ff041928)";
+}
+.carousel-header {
+    font-family: Segoe UI;
+    font-variant: normal;
+    opacity: .85;
+    color: #fdf570;
+    font-size:30px;
+    font-weight: 600;
+}
+.carousel-content-div{
+    padding-top: 35px;
+}
+.carousel-body {
+    font-family: Segoe UI;
+    color: #ffffff;
+    padding-bottom: 30px;
+    margin-top: -20px
+}
+.carousel-control-positioning {
+    top: 103px;
+    bottom: 0;
+    width: 21px;;
+}
+.carousel-control.left {
+    left: 10px;
+    background: url("../images/landingPage/free-membership-left-arrow.png")
+        no-repeat;
+}
+.carousel-control.right {
+    right: 10px;
+    background: url("../images/landingPage/free-membership-right-arrow.png")
+        no-repeat;
+}
+.carousel-indicators-positioning {
+    bottom: -5px;
+}
+.carousel-links {
+    background-color: #ff6a43;
+    text-decoration: underline;
+    padding-top: 5px;
+    padding-left: 5px;
+    padding-bottom: 5px;
+    padding-right: 5px;
+}
+
+.carousel-indicators li{
+    background: url("../images/landingPage/bullets-others.png") no-repeat; 
+    border :0px;
+    height : 12px;
+    width : 12px;    
+}
+.carousel-indicators li.active{
+    background: url("../images/landingPage/bullets-current-ad.png") no-repeat; 
+    border :0px;
+}
+/* --- Carosel End ---*/
+
+
+/* Smartphones (portrait) ----------- */
+@media only screen and (min-width : 321px) and (max-width : 548px) {
+    /* ~~~Carousel Smartphones (portrait)Start~~~ */
+    .carousel-header {
+        font-size: 24px;
+        font-weight: 400;
+        padding-top: 13px;
+        padding-left: 38px;
+    }
+    .carousel
+    {
+        padding-top: 0px;
+    }
+    .carousel-body {
+        font-size: 14px;
+        font-weight: lighter;
+        padding-left: 38px;
+        padding-right: 38px;
+        line-height: 25px;
+        padding-top: 16px;
+    }
+    .carousel-links {
+        padding-top: 2px;
+        padding-left: 2px;
+        padding-bottom: 2px;
+        padding-right: 2px;
+    }
+    .carousel-inner-background {
+        height: 202px;
+    }
+    /* ~~~Carousel Smartphones (portrait) End~~~ */
+}
+/* Smartphones (portrait) End----------- */
+
+/* Smartphones (landscape) Start----------- */
+@media only screen and (min-width : 549px) and (max-width : 767px) {
+    /* ~~~Carousel Smartphones (landscape) Start~~~ */
+    .carousel
+    {
+        padding-top: 0px;
+    }
+    .carousel-header {
+        font-size: 24px;
+        font-weight: 400;
+        padding-top: 13px;
+        padding-left: 38px;
+    }
+    .carousel-links {
+        padding-top: 2px;
+        padding-left: 2px;
+        padding-bottom: 2px;
+        padding-right: 2px;
+    }
+    .carousel-body {
+        font-size: 14px;
+        font-weight: lighter;
+        padding-left: 38px;
+        padding-right: 38px;
+        line-height: 25px;
+        padding-top: 16px;
+    }
+    .carousel-inner-background {
+        height: 202px;
+    }
+    /* ~~~Carousel Smartphones (landscape) End~~~ */
+}
+/* Smartphones (landscape) End----------- */
+/* iPads (portrait and landscape) Start----------- */
+@media only screen and (min-width : 768px) and (max-width : 1023px) {
+    /* ~~~CAROUSEL~~~ */
+    .carousel-header {
+        font-size: 25px;
+        font-weight: 400;
+        padding-top: 34px;
+        padding-left: 79px;
+    }
+    .carousel-body {
+        font-size: 13px;
+        font-weight: lighter;
+        padding-left: 79px;
+        padding-right: 79px;
+        line-height: 32px;
+        padding-top: 26px;
+    }
+    .carousel-inner-background {
+        height: 228px;
+    }
+    /* ~~~CAROUSEL ENDS~~~ */
+}
+/* iPads (portrait and landscape) End----------- */
+/* Desktops and laptops ----------- */
+@media only screen and (min-width : 1024px) {
+    /* ~~~CAROUSEL~~~ */
+    .carousel-header {
+        font-size: 30px;
+        font-weight: 400;
+        padding-top: 34px;
+        padding-left: 79px;
+    }
+    .carousel-body {
+        font-size: 16px;
+        font-weight: lighter;
+        padding-left: 79px;
+        padding-right: 79px;
+        line-height: 32px;
+        padding-top: 26px;
+    }
+    .carousel-inner-background {
+        height: 228px;
+    }
+    /* ~~~CAROUSEL ENDS~~~ */   
+}
+
+/* Desktops and laptops End----------- */
+
+
+#chart {
+
+    width: 370px;
+    margin:  10px auto;
+    display: block;
+    height: 300px;
+
+}
+#chart #numbers {
+    width: 8%;
+    height: 250px;
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    float: left;
+}
+#chart #numbers li {
+    text-align: right;
+    padding-right: 0em;
+    list-style: none;
+    height: 25px;
+    border-bottom: 1px solid rgba(0, 0, 0, .2);
+    position: relative;
+    bottom: 25px;
+    width: 340px;
+    margin-left: 30px
+}
+#chart #numbers li:last-child {
+    height: 25px;
+}
+#chart #numbers li span {
+    color: #000;
+    bottom: 0;
+    right: 10px;
+    float: left;
+    margin-left: -25px;
+    padding-top : 15px;
+}
+#chart #bars {
+    display: inline-block;
+    background: rgba(255, 255, 255, 1);
+    width: 320px;
+    height: 249px;
+    padding: 0;
+    margin: 0;
+    box-shadow: 0 0 0 0px #444;
+}
+#chart #bars li {
+    width: 60px;
+    height: 249px;
+    margin: 0;
+    text-align: center;
+    position: relative;
+    display: inline-block; 
+}
+#chart #bars li .bar {
+    display: block;
+    width: 50px;
+    margin : 0 0;
+    margin-left: 15px;
+    position: absolute;
+    bottom: 0;
+    -webkit-box-shadow: 0px 0px 11px 0px rgba(50, 50, 50, 0.5);
+    -moz-box-shadow:    0px 0px 11px 0px rgba(50, 50, 50, 0.5);
+    box-shadow:         0px 0px 11px 0px rgba(50, 50, 50, 0.5);
+}
+#chart #bars li .bar1
+{
+    background: #f08a54; /* Old browsers */
+    background: -moz-linear-gradient(top, #f08a54 0%, #f57b2a 50%, #e36a14 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f08a54), color-stop(50%,#f57b2a), color-stop(100%,#e36a14)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, #f08a54 0%,#f57b2a 50%,#e36a14 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, #f08a54 0%,#f57b2a 50%,#e36a14 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, #f08a54 0%,#f57b2a 50%,#e36a14 100%); /* IE10+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f08a54', endColorstr='#e36a14',GradientType=0 ); /* IE6-9 */
+}
+#chart #bars li .bar2
+{
+    background: #fac746; /* Old browsers */
+    background: -moz-linear-gradient(top, #fac746 0%, #ffc400 50%, #e8b407 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#fac746), color-stop(50%,#ffc400), color-stop(100%,#e8b407)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, #fac746 0%,#ffc400 50%,#e8b407 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, #fac746 0%,#ffc400 50%,#e8b407 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, #fac746 0%,#ffc400 50%,#e8b407 100%); /* IE10+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fac746', endColorstr='#e8b407',GradientType=0 ); /* IE6-9 */
+}
+#chart #bars li .bar3
+{
+    background: #81b863; /* Old browsers */
+    background: -moz-linear-gradient(top, #81b863 0%, #6eb03f 50%, #5ea339 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#81b863), color-stop(50%,#6eb03f), color-stop(100%,#5ea339)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, #81b863 0%,#6eb03f 50%,#5ea339 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, #81b863 0%,#6eb03f 50%,#5ea339 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, #81b863 0%,#6eb03f 50%,#5ea339 100%); /* IE10+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#81b863', endColorstr='#5ea339',GradientType=0 ); /* IE6-9 */
+}
+#chart #bars li .bar4
+{
+    background: #ab6144; /* Old browsers */
+    background: -moz-linear-gradient(top, #ab6144 0%, #a14406 50%, #963f00 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ab6144), color-stop(50%,#a14406), color-stop(100%,#963f00)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, #ab6144 0%,#a14406 50%,#963f00 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, #ab6144 0%,#a14406 50%,#963f00 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, #ab6144 0%,#a14406 50%,#963f00 100%); /* IE10+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ab6144', endColorstr='#963f00',GradientType=0 ); /* IE6-9 */
+}
+#chart #bars li .bar5
+{
+    background: #a88243; /* Old browsers */
+    background: -moz-linear-gradient(top, #a88243 0%, #9e7400 50%, #946f00 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#a88243), color-stop(50%,#9e7400), color-stop(100%,#946f00)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, #a88243 0%,#9e7400 50%,#946f00 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, #a88243 0%,#9e7400 50%,#946f00 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, #a88243 0%,#9e7400 50%,#946f00 100%); /* IE10+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a88243', endColorstr='#946f00',GradientType=0 ); /* IE6-9 */
+}
+
+
+#chart #bars li .bar:hover {
+    background: #5AE;
+    cursor: pointer;
+}
+#chart #bars li .bar:after {
+    color: #000;
+    content: attr(data-percentage) ' ';
+    position: relative;
+    bottom: 20px;
+    font : normal normal 12px Segoe UI;
+}
+#chart #bars li span {
+    color: #000;
+    width: 120%;
+    position: absolute;
+    bottom: -3em;
+    left: 0;
+    text-align: center;
+
+}
+#chart #bars li .bar:hover {
+    background: #5AE;
+    cursor: pointer;
+}
+#chart #bars li .bar:after {
+    color: #000;
+    content: attr(data-percentage) ' ';
+    position: relative;
+    bottom: 20px;
+    font : normal normal 12px Segoe UI;
+}
+#chart #bars li span {
+    color: #000;
+    width: 120%;
+    position: absolute;
+    bottom: -3em;
+    left: 0;
+    text-align: center;
+
+}
+.graph-x-axis
+{
+    padding-left: 15px;
+    margin-bottom: 10px;
+}
+.graph-x-title-area
+{
+    margin-top: 5px;
+    padding-right: 15px;
+    display:inline-block !important;
+}
+
+.fixed-size-square {
+    display: table;
+    margin-top: 5px;
+    width: 5px;
+    height: 5px;
+    background: #4679BD;
+    float: left;
+}
+.fixed-size-bigsquare {
+    display: table;
+    margin-top: 2px;
+    width: 10px;
+    height: 10px;
+    background: #4679BD;
+    float: left;
+}
+.fixed-size-square1 {
+    background: #f08a54;
+}
+.fixed-size-square2 {
+    background: #fac746;
+}
+.fixed-size-square3 {
+    background: #81b863;
+}
+.fixed-size-square4 {
+    background: #ab6144;
+}
+.fixed-size-square5 {
+    background: #a88243;
+
+}
+.fixed-size-square6 {
+    background: #5b9cd6;
+}
+.fixed-size-square7 {
+    background: #4473c5;
+}
+.fixed-size-square8 {
+    background: #a5a5a5;
+}
+.graph-x-title
+{
+    display: inline-block;
+    padding-left: 5px;
+    float: left;
+}
+
+.cf2 {
+    position:relative;
+    height:340px;
+}
+.cf2img {
+    position:absolute;
+    left:0;
+    -webkit-transition: opacity 1s ease-in-out;
+    -moz-transition: opacity 1s ease-in-out;
+    -o-transition: opacity 1s ease-in-out;
+    transition: opacity 1s ease-in-out;
+}
+.europemap
+{
+    display: none;
+    transition:visibility 0s linear 0.5s,opacity 0.5s linear;
+}
+.usa-map
+{
+    transition:visibility 0s linear 0.5s,opacity 0.5s linear;
+}
+#cf2 img.transparent {
+    opacity:0;
+}
+
+.pie-index
+{
+    vertical-align: central;
+    margin : 0 auto;
+    width: 280px;
+    padding-bottom: 10px;
+}
+.pie-chart-space
+{
+
+    width: 100%;
+    vertical-align: central;
+    position: relative;
+    display: block;
+
+}
+.chart {
+
+    width: 250px;
+    height: 250px;
+    margin: 0 auto;
+    vertical-align: central;
+}
+.pieTip {
+    position: absolute;
+    float: left;
+    min-width: 30px;
+    max-width: 100px;
+    padding: 5px 5px 6px;
+    border-radius: 2px;
+    background: rgba(255,255,255,.97);
+    color: #444;
+    font-size: 13px;
+    text-shadow: 0 1px 0 #fff;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 1;
+    letter-spacing: .06em;
+    box-shadow: 0 0 3px rgba(0,0,0,0.2), 0 1px 2px rgba(0,0,0,0.5);
+    -webkit-transform: all .3s;
+    -moz-transform: all .3s;
+    -ms-transform: all .3s;
+    -o-transform: all .3s;
+    transform: all .3s;
+    pointer-events: none;
+}
+.pieTip:after {
+    position: absolute;
+    left: 50%;
+    bottom: -6px;
+    content: "";
+    height: 0;
+    margin: 0 0 0 0px;
+    border-right: 5px solid transparent;
+    border-left: 5px solid transparent;
+    border-top: 6px solid rgba(255,255,255,.95);
+    line-height: 0;
+}
+.chart path { cursor: pointer; }
+.charttab{
+    display: none;
+}
+
+@media only screen and (min-width : 768px) and (max-width : 1023px) {
+
+    #chart {
+        width: 255px;
+        height: 200px;
+    }
+    #chart #bars {
+        width: 230px;
+        height: 149px;
+    }
+    #chart #numbers li {
+        width: 200px;
+        margin-left: 30px
+    }
+
+    #chart #bars li {
+        width : 35px;
+        height: 149px;
+    }
+    #chart #bars li .bar {
+        width : 30px;
+    }
+    #chart #numbers {
+        height: 150px;
+    }
+    #chart #numbers li {
+
+        height: 15px;
+        bottom: 15px;
+        margin-left: 30px
+    }
+    #chart #numbers li:last-child {
+        height: 15px;
+    }
+    #chart #numbers li span {
+        padding-top : 7px;
+    }
+    .pie-chart-space
+    {
+        height: 180px;
+    }
+    .chart {
+        width: 100%;
+        height: 100%;
+    }
+    .pie-index
+    {
+
+        width: 220px;
+    }
+}
+
+@media only screen and (min-width : 255px) and (max-width : 390px) {
+
+    #chart {
+        width: 255px;
+        height: 230px;
+    }
+    #chart #bars {
+        width: 230px;
+        height: 149px;
+    }
+    #chart #numbers li {
+        width: 200px;
+        margin-left: 30px
+    }
+
+    #chart #bars li {
+        width : 35px;
+        height: 149px;
+    }
+    #chart #bars li .bar {
+        width : 30px;
+    }
+    #chart #numbers {
+        height: 150px;
+    }
+    #chart #numbers li {
+
+        height: 15px;
+        bottom: 15px;
+        margin-left: 30px
+    }
+    #chart #numbers li:last-child {
+        height: 15px;
+    }
+    #chart #numbers li span {
+        padding-top : 7px;
+    }
+}
+
+
+#chart-static {
+
+    width: 370px;
+    margin:  10px auto;
+    display: block;
+    height: 300px;
+
+}
+#chart-static #numbers-static {
+    width: 8%;
+    height: 250px;
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    float: left;
+}
+#chart-static #numbers-static li {
+    text-align: right;
+    padding-right: 0em;
+    list-style: none;
+    height: 25px;
+    border-bottom: 1px solid rgba(0, 0, 0, .2);
+    position: relative;
+    bottom: 25px;
+    width: 340px;
+    margin-left: 30px
+}
+#chart-static #numbers-static li:last-child {
+    height: 25px;
+}
+#chart-static #numbers-static li span {
+    color: #000;
+    bottom: 0;
+    right: 10px;
+    float: left;
+    margin-left: -25px;
+    padding-top : 15px;
+}
+#chart-static #bars-static {
+    display: inline-block;
+    background: rgba(255, 255, 255, 1);
+    width: 320px;
+    height: 249px;
+    padding: 0;
+    margin: 0;
+    box-shadow: 0 0 0 0px #444;
+}
+#chart-static #bars-static li {
+    width: 60px;
+    height: 249px;
+    margin: 0;
+    text-align: center;
+    position: relative;
+    display: inline-block; 
+}
+#chart-static #bars-static li .bar {
+    display: block;
+    width: 50px;
+    margin : 0 0;
+    margin-left: 15px;
+    position: absolute;
+    bottom: 0;
+    -webkit-box-shadow: 0px 0px 11px 0px rgba(50, 50, 50, 0.5);
+    -moz-box-shadow:    0px 0px 11px 0px rgba(50, 50, 50, 0.5);
+    box-shadow:         0px 0px 11px 0px rgba(50, 50, 50, 0.5);
+}
+#chart-static #bars-static li .bar1
+{
+    background: #f08a54; /* Old browsers */
+    background: -moz-linear-gradient(top, #f08a54 0%, #f57b2a 50%, #e36a14 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f08a54), color-stop(50%,#f57b2a), color-stop(100%,#e36a14)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, #f08a54 0%,#f57b2a 50%,#e36a14 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, #f08a54 0%,#f57b2a 50%,#e36a14 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, #f08a54 0%,#f57b2a 50%,#e36a14 100%); /* IE10+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f08a54', endColorstr='#e36a14',GradientType=0 ); /* IE6-9 */
+}
+#chart-static #bars-static li .bar2
+{
+    background: #fac746; /* Old browsers */
+    background: -moz-linear-gradient(top, #fac746 0%, #ffc400 50%, #e8b407 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#fac746), color-stop(50%,#ffc400), color-stop(100%,#e8b407)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, #fac746 0%,#ffc400 50%,#e8b407 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, #fac746 0%,#ffc400 50%,#e8b407 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, #fac746 0%,#ffc400 50%,#e8b407 100%); /* IE10+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fac746', endColorstr='#e8b407',GradientType=0 ); /* IE6-9 */
+}
+#chart-static #bars-static li .bar3
+{
+    background: #81b863; /* Old browsers */
+    background: -moz-linear-gradient(top, #81b863 0%, #6eb03f 50%, #5ea339 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#81b863), color-stop(50%,#6eb03f), color-stop(100%,#5ea339)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, #81b863 0%,#6eb03f 50%,#5ea339 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, #81b863 0%,#6eb03f 50%,#5ea339 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, #81b863 0%,#6eb03f 50%,#5ea339 100%); /* IE10+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#81b863', endColorstr='#5ea339',GradientType=0 ); /* IE6-9 */
+}
+#chart-static #bars-static li .bar4
+{
+    background: #ab6144; /* Old browsers */
+    background: -moz-linear-gradient(top, #ab6144 0%, #a14406 50%, #963f00 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ab6144), color-stop(50%,#a14406), color-stop(100%,#963f00)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, #ab6144 0%,#a14406 50%,#963f00 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, #ab6144 0%,#a14406 50%,#963f00 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, #ab6144 0%,#a14406 50%,#963f00 100%); /* IE10+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ab6144', endColorstr='#963f00',GradientType=0 ); /* IE6-9 */
+}
+#chart-static #bars-static li .bar5
+{
+    background: #a88243; /* Old browsers */
+    background: -moz-linear-gradient(top, #a88243 0%, #9e7400 50%, #946f00 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#a88243), color-stop(50%,#9e7400), color-stop(100%,#946f00)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, #a88243 0%,#9e7400 50%,#946f00 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, #a88243 0%,#9e7400 50%,#946f00 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, #a88243 0%,#9e7400 50%,#946f00 100%); /* IE10+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a88243', endColorstr='#946f00',GradientType=0 ); /* IE6-9 */
+}
+
+
+#chart-static #bars-static li .bar:hover {
+    background: #5AE;
+    cursor: pointer;
+}
+#chart-static #bars-static li .bar:after {
+    color: #000;
+    content: attr(data-percentage) ' ';
+    position: relative;
+    bottom: 20px;
+    font : normal normal 12px Segoe UI;
+}
+#chart-static #bars-static li span {
+    color: #000;
+    width: 120%;
+    position: absolute;
+    bottom: -3em;
+    left: 0;
+    text-align: center;
+
+}
+#chart-static #bars-static li .bar:hover {
+    background: #5AE;
+    cursor: pointer;
+}
+#chart-static #bars-static li .bar:after {
+    color: #000;
+    content: attr(data-percentage) ' ';
+    position: relative;
+    bottom: 20px;
+    font : normal normal 12px Segoe UI;
+}
+#chart-static #bars-static li span {
+    color: #000;
+    width: 120%;
+    position: absolute;
+    bottom: -3em;
+    left: 0;
+    text-align: center;
+
+}
+
+
+@media only screen and (min-width : 768px) and (max-width : 1023px) {
+
+    #chart-static {
+        width: 255px;
+        height: 200px;
+    }
+    #chart-static #bars-static {
+        width: 230px;
+        height: 149px;
+    }
+    #chart-static #numbers-static li {
+        width: 200px;
+        margin-left: 30px
+    }
+
+    #chart-static #bars-static li {
+        width : 35px;
+        height: 149px;
+    }
+    #chart-static #bars-static li .bar {
+        width : 30px;
+    }
+    #chart-static #numbers-static {
+        height: 150px;
+    }
+    #chart-static #numbers-static li {
+
+        height: 15px;
+        bottom: 15px;
+        margin-left: 30px
+    }
+    #chart-static #numbers-static li:last-child {
+        height: 15px;
+    }
+    #chart-static #numbers-static li span {
+        padding-top : 7px;
+    }
+}
+
+@media only screen and (min-width : 255px) and (max-width : 390px) {
+
+    #chart-static {
+        width: 255px;
+        height: 230px;
+    }
+    #chart-static #bars-static {
+        width: 230px;
+        height: 149px;
+    }
+    #chart-static #numbers-static li {
+        width: 200px;
+        margin-left: 30px
+    }
+
+    #chart-static #bars-static li {
+        width : 35px;
+        height: 149px;
+    }
+    #chart-static #bars-static li .bar {
+        width : 30px;
+    }
+    #chart-static #numbers-static {
+        height: 150px;
+    }
+    #chart-static #numbers-static li {
+
+        height: 15px;
+        bottom: 15px;
+        margin-left: 30px
+    }
+    #chart-static #numbers-static li:last-child {
+        height: 15px;
+    }
+    #chart-static #numbers-static li span {
+        padding-top : 7px;
+    }
+}

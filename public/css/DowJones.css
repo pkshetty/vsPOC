@@ -1,0 +1,794 @@
+/* ---- Website Generic Start ---- */
+body {
+    font-family: Segoe UI Semilight,  Segoe UI Semibold, Segoe UI Bold, Segoe UI;
+    text-decoration: none;
+}
+a , a:HOVER , a:visited{
+    text-decoration: none;
+}
+.floatRight { float: right; }
+.alignRight { text-align: right; }
+/* ---- Website Generic End ---- */
+
+/* ---- Header Start ---- */
+.logo-header-section {
+    background: url("../images/globalElements/logo-bar-bg.png") no-repeat;
+    display: block;
+    height: 50px;
+    background-size: 100% 100%;
+}
+
+.venture-source {
+    background: url("../images/globalElements/venture-header-bg.png")
+        no-repeat;
+    height: 80px;
+    background-size: 100% 100%;
+    border: none !important;
+    border-radius: 0px !important;
+    margin-bottom: 0px !important;
+}
+
+.venture-source-logo {
+    margin: 29px auto;
+}
+
+.down-jones-logo-dropdown {
+    width: 110px;
+    height: 20px;
+    background: url("../images/globalElements/dow-jones-logo.png") no-repeat;
+    margin: 15px auto;
+}
+
+.live-help {
+    width: 99px;
+    height: 38px;
+    background: url("../images/globalElements/live-help-nm.png") no-repeat;
+    margin: 6px auto;
+    border:0px;
+}
+/* ---- Header End ---- */
+
+
+/* ---- Main Content Div Start ---- */
+.bodyContent-topbg{
+    height:100%;
+    width:100%;
+    background: url("../images/globalElements/page-bg.png") repeat-x,url("../images/globalElements/page-bg-image.png") 100% repeat-x;
+    background-color: #7f8f96;
+    padding-bottom: 20px;
+}
+.strech-column-rightmost
+{
+    padding: 0px 0px 0px 0px;
+    margin-right:0px;
+}
+.reduce-leftmost
+{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.center-pane-blue-surround{
+    background-color: rgb(4, 25, 40);
+    background-color: rgba(4, 25, 40, 0.7);
+    padding: 10px 10px 12px 10px;
+    margin-top: 10px;
+}
+.center-pane-header-area {
+    padding: 0px 0px 0px 10px;
+    margin-bottom:10px;
+}
+.center-pane-blue-header-area {
+    background-color: #FFFFFF;
+    padding: 10px 0px 0px 10px;
+    margin-bottom:0px;
+    height: 38px;
+}
+.middle-white-area{
+    background-color: #ffffff;
+    padding: 10px 10px 0px 10px;
+}
+.heading-news{
+    width : 100%;
+    height: 140px;
+    margin-bottom: 15px;
+    padding-top:10px;
+    overflow: hidden;
+}
+.content-header{
+    padding-right: 10px;
+    padding-bottom: 10px;
+}
+.news-image-side{
+    width: 170px;
+    height: 130px;
+}
+.news-content-side{
+    padding-left: 10px;
+}
+.news-bullets
+{
+    background:  url("../images/landingPage/bulltets-green.png") no-repeat; 
+    height: 12px;
+    width: 11px;
+}
+/* ---- Main Content Div End ---- */
+
+/* ---- Advertisemement Area Start ---- */
+.advertisement-area {
+    padding : 0px;
+    margin-top: 10px;
+    margin-right: 15px;
+}
+.image-full-span {
+    width : 100% !important; 
+    margin-top: 0px;
+}
+
+.advertisement-header-area {
+    padding: 10px 0px 0px 15px;
+    margin-bottom:10px;
+    background-color: rgb(4, 25, 40);
+    background-color: rgba(4, 25, 40, 0.7);
+    height:46px;
+}
+.advertisement-headerorange-area {
+    padding: 10px 0px 0px 15px;
+    margin-bottom:10px;
+    background-color: rgb(255,99,58);
+    background-color: rgba(255,99,58, 0.7);
+    height:46px;
+}
+.text-content-side
+{
+    padding : 10px 15px 15px 15px;
+}
+.button-side-span
+{
+    width:100%;
+    height: 40px;
+    margin-top: 2px;
+    padding : 0px 0px 0px 0px;
+    margin-bottom: 20px;
+    background: #ff633a no-repeat;
+    vertical-align: middle;
+}
+
+
+/* ---- Advertisemement Area End ---- */
+
+/* ---- Position Coreection Start ---- */
+.column-div-pane-normal
+{
+    padding: 10px 0px 25px 0px;
+}
+.reduce-margin-left
+{
+    margin-left:0px;
+}
+.reduce-padding-left
+{
+    padding-left: 20px;
+}
+.add-padding-left
+{
+    padding-left: 10px !important;
+}
+.reduce-top-padding
+{
+    padding: 0px 6px  !important;
+}
+.reduce-top-margin{
+    margin-top: -5px  !important;
+}
+.reduce-top-minmargin{
+    margin-top: -4px  !important;
+}
+.add-bottom-margin{
+    margin-bottom: 10px  !important;
+}
+.add-bottom-bigmargin{
+    margin-bottom: 20px  !important;
+}
+.blog-pane-reduce{
+    margin-right:-10px;
+    margin-left:-10px;
+}
+.margin-down-20px
+{
+    margin-bottom: 20px;
+}
+.padding-top-16px 
+{
+    padding-top: 16px;
+}
+.no-padding
+{
+    padding :0px !important;
+}
+.no-padding-left
+{
+    padding :0px 0px 0px 10px !important;
+}
+.no-padding-side
+{
+    padding :0px 10px 0px 10px !important;
+}
+
+/* ---- Position Coreection  End ---- */
+
+/* ---- Font Styles Start ---- */
+
+.font-bold-heavyheader
+{
+    font : normal bold 20px Segoe UI Bold, Segoe UI;
+    color: #1ab6ff;
+}
+.font-bold-bigheader
+{
+    font : normal bold 18px Segoe UI Bold, Segoe UI;
+    color: #ffffff;
+}
+.font-boldblue-header
+{
+    font : normal bold 16px Segoe UI Bold, Segoe UI;
+    color: #05b9c4;
+}
+.font-semibold-header
+{
+    font : normal 16px Segoe UI Semibold, Segoe UI;
+    color: #ffffff;
+}
+.font-semiboldblue-header
+{
+    font : normal 16px Segoe UI Semibold, Segoe UI;
+    color: #05b9c4;
+}
+.font-semiboldblue-text
+{
+    font : normal 14px Segoe UI Semibold, Segoe UI;
+    color: #078dd3;
+}
+.font-semiboldblack-text
+{
+    font : normal 14px Segoe UI Semibold, Segoe UI;
+    color: #000000;
+}
+.font-semilight-text
+{
+    font : normal 14px Segoe UI Semilight, Segoe UI;
+    color: #000000;
+}
+.font-semilight-hideentext
+{
+    font : normal 12px Segoe UI Semilight, Segoe UI;
+    color: #cfcfcf;
+    color: rgba(0,0,0,.5);
+}
+.font-boldblue-smalltext
+{
+    font : normal bold 12px Segoe UI Bold, Segoe UI;
+    color: #05b9c4;
+}
+.font-black-smalltext
+{
+    font : normal normal 11px Segoe UI;
+    color: #000000;
+}
+/* ---- Font Styles End ---- */
+
+/* ---- Common Start ---- */
+.hori-ruler{
+    color: #cfcfcf;
+    border-width: 1px;
+    margin: 10px 0px;
+    border-top: 1px solid #cfcfcf;
+}
+.hori-ruler-withoutpadding
+{
+    color: #cfcfcf;
+    border-top: 1px solid #cfcfcf;
+    border-width: 1px;
+    margin: 0px 5px 0px 0px;
+}
+
+/* ---- Common End ---- */
+
+
+/* ---- Blogs Section Start----------- */  
+
+.blogheading{
+    padding-top:10px;
+    padding-bottom:20px;
+}
+
+.viewmore-common{
+    padding-top:35px;
+    padding-bottom:15px;
+}
+
+.viewmore-right{
+    font-weight: bold;
+    font-size: 12px;
+    color:#05b9c4;
+}
+.blog-image{
+    padding-left:0px;
+    padding-right:10px;
+}
+.blog-right-side
+{
+    background-color: #f0f0f0;
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+}
+/* ---- Blogs Section End----------- */  
+
+/* ---- Table Start ----------- */  
+.tb-remove-border
+{
+    border-top : 0px !important;
+}
+.table-emptymargin
+{
+    margin-bottom : 0px !important;
+}
+/* ---- Table End----------- */  
+.heading-text
+{
+    height: 29px;
+}
+.toggle-pane
+{
+
+    border: 0px solid #a1a1a1 !important;
+    border-radius: 15px !important;
+    -moz-border-radius: 25px !important;
+    width: 178px !important;
+    height: 29px !important;
+    margin-top: -29px;
+    margin-left: 220px;
+    margin-bottom: 0px !important;
+
+}
+.toggle-btn
+{
+    border: 0px solid #a1a1a1 !important;
+    border-radius: 15px !important;
+    -moz-border-radius: 25px !important;
+    background-color: #1ab6ff !important;
+    color: #ffffff !important;
+    -webkit-box-shadow: 0px 0px 21px 0px rgba(71, 71, 71, 1);
+    -moz-box-shadow:    0px 0px 21px 0px rgba(71, 71, 71, 1);
+    box-shadow:         0px 0px 21px 0px rgba(71, 71, 71, 1);
+
+
+}
+.toggle-label
+{
+    color: #1ab6ff ;
+    font : normal bold 16px Segoe UI Bold,Segoe UI  !important;
+    padding-top: 2px !important;
+    cursor: pointer;
+}
+.toggle-pane input[type="radio"]:checked + label { 
+    color: #ffffff !important;
+}
+
+@media only screen and (max-width : 420px) {
+    .toggle-pane
+    {
+        margin-top: 5px;
+        margin-left:  0px;
+    }
+}
+/* Smartphones (portrait) ----------- */
+@media only screen and (min-width : 321px) and (max-width : 548px) {
+    .searchbox {
+        height: 39px;
+        width: 69%;
+        background: url("../images/globalElements/search-bg.png") repeat;
+        margin: 19.5px auto;
+        border: 1px solid transparent;
+    }
+    .search-container {
+        padding: 0px 0px;
+        position: absolute;
+        z-index: 1002;
+        top: 0px;
+        left: 30px;
+        width: 97%;
+    }
+
+    .content-wrapper {
+        width: 100%;
+        margin: 0px auto;
+    }
+    .logo-header-section {
+        display: none !important;
+    }
+    .custom-glyhpicon-search {
+        color: white;
+        right: 30px;
+        top: 25px;
+        position: absolute;
+        font-size: 2.1em;
+        z-index: 1003;
+
+    }
+    .media-icons-container {
+        padding: 16px 0px 0px 0px;
+    }
+    .venture-source-logo{
+        margin-left: 30px;
+    }
+    .mobile-hide-pane
+    {
+        display: none !important;
+    }
+
+    /* ~~~Main Div Smartphones (portrait)Start~~~ */
+    .mobile-full-pane {
+        margin-right:0px;
+    }
+    .middle-white-area
+    {
+        margin-right:0px;
+    }
+    .strech-column-rightmost{
+        padding-right: 0px ;
+    }
+    .center-pane-blue-surround {
+        padding: 10px 0px 0px 0px ;
+        margin-top:0px;
+    }
+    .center-pane-blue-header-area {
+        background-color: transparent;
+        padding: 0px 0px 0px 10px;
+    }
+    .heading-news
+    {
+        border : 0px;
+    }
+    /* ~~~Main Div Smartphones (portrait)Start~~~ */
+    .advertisement-area {
+        margin-right: 0px;
+        margin-bottom: -15px;
+    }
+    .strech-rightmost{
+        margin-top: -10px;
+        margin-left: 15px;
+    }
+    .bodyContent-topbg
+    {
+        padding-bottom: 0px;
+    }
+    .add-mobile-border
+    {
+        border-top: 1px solid #cfcfcf;
+    }
+}
+/* Smartphones (portrait) End----------- */
+
+/* Smartphones (landscape) Start----------- */
+@media only screen and (min-width : 549px) and (max-width : 767px) {
+    .searchbox {
+        height: 39px;
+        width: 69%;
+        background: url("../images/globalElements/search-bg.png") repeat;
+        margin: 19.5px auto;
+        border: 1px solid transparent;
+    }
+    .search-container {
+        padding: 0px 0px;
+        position: absolute;
+        z-index: 1002;
+        top: 0px;
+        left: 35px;
+        width: 97%;
+    }
+
+    .content-wrapper {
+        width: 100%;
+        margin: 0px auto;
+    }
+    .logo-header-section {
+        display: none !important;
+    }
+    .mobile-hide-pane
+    {
+        display: none !important;
+    }
+    .custom-glyhpicon-search {
+        color: white;
+        right: 68px;
+        top: 25px;
+        position: absolute;
+        font-size: 2.1em;
+        z-index: 1003;
+
+    }
+    .media-icons-container {
+        padding: 16px 0px 0px 0px;
+    }
+    .venture-source-logo{
+        margin-left: 35px;
+    }
+
+    .mobile-full-pane {
+        margin-right:0px;
+    }
+    .middle-white-area
+    {
+        margin-right:0px;
+    }
+    .strech-column-rightmost{
+        padding-right: 0px ;
+    }
+    .center-pane-blue-surround {
+        padding-left: 0px ;
+        padding-right: 0px ;
+        margin-top:0px;
+        padding-top: 10px ;
+        padding-bottom: 0px ;
+    }
+    .heading-news
+    {
+        border : 0px;
+    }
+    .center-pane-blue-header-area {
+        background-color: transparent;
+        padding: 0px 0px 0px 10px;
+    }
+    .advertisement-area {
+        margin-right: 0px;
+        margin-bottom: -15px;
+    }
+    .strech-rightmost{
+        margin-top: -10px;
+        margin-left: 15px;
+    }
+    .bodyContent-topbg
+    {
+        padding-bottom: 0px;
+    }
+    .add-mobile-border
+    {
+        border-top: 1px solid #cfcfcf;
+    }
+}
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen and (min-width : 768px) and (max-width : 1023px) {
+    .show-in-mobile{
+        display:none;
+    }
+    #popout{
+        display:none !important;
+    }
+
+    .content-wrapper {
+        width: 735px;
+        margin: 0px auto;
+    }
+    .searchbox {
+        height: 39px;
+        width: 250px;
+        background: url("../images/globalElements/search-bg.png") repeat;
+        margin: 19.5px auto;
+        border: 1px solid transparent;
+    }
+    .search-container {
+        padding: 0px 26.5px;
+    }
+    .custom-glyhpicon-search {
+        display: none;
+    }
+    .media-icons-container {
+        padding: 34.5px 0px;
+    }
+    .reduce-leftmost
+    {
+        width : 70%;
+    }
+    .strech-rightmost{
+        width : 30%;
+    }
+    .table-side-border {
+        border-right: 1px solid #ddd;
+        padding-left: 10px;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+    }
+}
+
+/* Desktops and laptops ----------- */
+@media only screen and (min-width : 1024px) {
+    .show-in-mobile{
+        display:none;
+    }
+    #popout{
+        display:none !important;
+    }
+
+    .content-wrapper {
+        width: 980px;
+        margin: 0px auto;
+    }
+    .searchbox {
+        height: 39px;
+        width: 464px;
+        background: url("../images/globalElements/search-bg.png") repeat;
+        margin: 19.5px auto;
+        border: 1px solid transparent;
+    }
+    .search-container {
+        padding: 0px 40px;
+    }
+    .custom-glyhpicon-search {
+        display: none;
+    }
+    .media-icons-container {
+        padding: 34.5px 0px;
+    }
+
+
+
+    .table-side-border {
+        border-right: 1px solid #ddd;
+        padding-left: 10px;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+    }
+}
+.search-button {
+    height: 39px;
+    width: 46px;
+    background: url("../images/globalElements/search-icon-nm.png") no-repeat;
+    border: 1px solid transparent;
+    vertical-align: middle;
+    margin: 0px 0px 1px -5px;}
+
+.user-section {
+    width: 160px;
+    height: 80px;
+    margin: 15px 0px;
+    text-align: right !important;
+    display: inline-block;
+    position: absolute;
+}
+
+.user-section>li {
+    float: right !important;
+}
+
+.user-section>li>a,.user-section>li>a:HOVER,.user-section>li>a:FOCUS {
+    color: #FFFFFF;
+    opacity: .8;
+    font-size: 14px !important;
+    padding: 10px !important;
+    line-height: 0px;
+    background: none;
+}
+
+.seperator {
+    border-left: 1px solid #FFFFFF;
+    opacity: .8;
+}
+
+.user-icon {
+    height: 27px;
+    width: 27px;
+    background: url("../images/globalElements/user-icon.png") !important;
+    border: 1px solid transparent;
+    margin: 10px 0px;
+}
+
+.custom-navbar-toggle {
+    float: left;
+    position: absolute;
+    left: -5px;
+    width: 30px;
+    top: 8px;
+    padding-left: 0px;
+}
+
+.custom-navbar-toggle .icon-bar {
+    margin-left: 0px;
+    background-color:#041928;
+    width: 29px;
+    height: 6px;
+}
+
+.glyphicon.glyhpicon-search::before {
+    content: "\e003";
+}
+
+.dow-jones-dropdown > li > a{
+    padding-top:5px;
+    padding-bottom: 5px;
+}
+/* minimal CSS */
+#popout {
+    position: absolute;                /* fix the popout to the left side of the screen */
+    left: -300px;                    /* use a negative margin to pull the icon area of the popout off the edge of the page */
+    width: 75px;
+    color: grey;
+    background: #f2f2f2;
+    z-index:1001;
+}
+
+#popout {                             /* made my popout narrow because vertical text needs less width */
+    width: 300px;
+    box-shadow: 3px 3px 2px #888;
+}
+.slider-nav{
+    padding: 10px 25px;
+    height: 175px;
+}
+.slider-user-cion{
+    margin: 10px 15px !important;
+    padding: 10px 13px !important;
+}
+.slider-nav >li {
+    border-bottom: 1px solid #D3D3D3;
+}
+
+.fix-bottom {
+    bottom: 0;
+    position: relative;
+    left: 0;
+    right: 0;
+}
+
+.grey-footer {
+    height: 94px;
+    background: url("../images/globalElements/grey-footer-bg.png");
+    background-size: cover;
+    padding: 0px 10px 0px 10px;
+}
+
+.dark-footer {
+    height: 36px;
+    background: url("../images/globalElements/dark-footer-bg.png");
+    background-size: cover;
+}
+
+.center-image-align {
+    margin: 0px 3px;
+}
+
+.media-icons-container {
+    height: 25px;
+    width: 90px;
+    float: right;
+}
+
+
+
+.footer-brand {
+    font-weight: bold;
+    font-size: 14px;
+    color: #000000;
+    opacity: 0.7;
+    padding: 16px 0px;
+}
+
+.footer-text {
+    font-weight: normal;
+    font-size: 12px;
+    color: #c4c3c3;
+}
+
+.footer-text a ,.copyright-text a{
+    color: #05b9c4;
+}
+.copyright-text{
+    font-weight: normal;
+    font-size: 12px;
+    color: #686868;
+    text-align: center;
+    padding: 5px 0px;
+}
+

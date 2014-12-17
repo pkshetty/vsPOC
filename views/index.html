@@ -1,15 +1,694 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <title>{{ title }}</title>
-    <link rel='stylesheet' href='/stylesheets/style.css' />
-  </head>
-  <body>
-    <h1>{{ title }}</h1>
-    <p>Welcome to {{ somevar }}</p>
+<html lang="en">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+        <link rel="icon" type="image/jpg" href="images/globalElements/dow-jones-icon.png" />
+        <link rel="stylesheet" href="css/bootstrap-theme.min.css" type="text/css">
+        <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
+        <link rel="stylesheet" href="css/DowJones.css" type="text/css">
+        <link rel="stylesheet" href="css/carousel.css" type="text/css">
+        <link rel="stylesheet" href="css/toggle-switch.css" type="text/css">
+        <script src="js/vendor/jquery-1.11.1.min.js"></script>
+        <!--[if lt IE 9]>
+                <script src="js/vendor/html5shiv.js"></script>
+                 <script src="js/vendor/respond.js">
+             <![endif]-->
+        <script src="js/vendor/bootstrap.min.js"></script>
+        <script src="js/custom/custom.js"></script>
+        <!--link type="text/css" rel="stylesheet" media="all" href="/css/style.css">
+        <script data-main="/js/init" src="/js/lib/require.js"></script-->
+        <title>Venture Source :: Home</title>
+    </head>
+    <body>
+        <!-- Header Section Starts-->
+        <header>
+            <d class="logo-header-section">
+                <div class="content-wrapper">
+                    <div class="pull-left">
+                        <div class="dropdown">
+                            <div class="dropdown-toggle down-jones-logo-dropdown" id="dropdownMenu1" data-toggle="dropdown">
+                                <span></span>
+                            </div>
+                            <ul class="dropdown-menu dow-jones-dropdown" role="menu"
+                                aria-labelledby="dropdownMenu1">
+                                <li role="presentation">
+                                    <a role="menuitem" tabindex="-1" href="index">Home</a>
+                                </li>
+                                <li role="presentation">
+                                    <a role="menuitem" tabindex="-1" href="#">Another action</a>
+                                </li>
+                                <li role="presentation">
+                                    <a role="menuitem" tabindex="-1" href="#">Something else here</a>
+                                </li>
+                                <li role="presentation">
+                                    <a role="menuitem" tabindex="-1" href="#">Separated link</a>
+                                </li>
+                                <li role="presentation">
+                                    <a role="menuitem" tabindex="-1" href="company">Company</a>
+                                </li>
+                            </ul>
 
-    <pre>
-    </pre>
+                        </div>
+                    </div>
+                    <div class="pull-right">
+                        <button type="button" class="live-help"></button>
+                    </div>
+                </div>
+            </d iv>
+            <div class="venture-source navbar">
+                <div class="content-wrapper">
+                    <div class="navbar-header">
+                        <button id="toggleButton" type="button" class="navbar-toggle custom-navbar-toggle"
+                                data-toggle="collapse">
+                            <!-- data-target="#navbar-collapse-content" -->
+                            <span class="sr-only">Toggle navigation</span> 
+                            <span class="icon-bar"></span> 
+                            <span class="icon-bar"></span> 
+                            <span class="icon-bar"></span>
+                        </button>
+                        <a href="#">
+                            <img src="images/globalElements/VentureSource_logo.png" alt="VentureSource-Logo" width="232" height="22" class="venture-source-logo">
+                        </a>
+                        <span id="searchIcon" class="glyphicon glyphicon-search custom-glyhpicon-search"></span>
+                        <span id="searchField" class="search-container show-in-mobile" style="display: none;">
+                            <input type="search" class="searchbox" placeholder="Find information on startup or other company">
+                            <!-- <button type="submit" class="search-button"></button> -->
+                        </span> 
 
-  </body>
+                    </div>
+
+                    <div class="collapse navbar-collapse" id="navbar-collapse-content">
+                        <ul class="nav navbar-nav">
+
+                        </ul>
+                        <span class="search-container">
+                            <input type="search" class="searchbox" placeholder="Find information on startup or other company">
+                            <button type="submit" class="search-button"></button>
+                        </span>
+                        <ul class="nav navbar-nav navbar-right user-section">
+                            <li>
+                                <a href="#" class="user-icon"></a>
+                            </li>
+                            <li><a href="#">Welcome Guest</a></li>  
+                            <li><a href="#" class="seperator">Login</a></li>
+                            <li><a href="#">Register</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!-- Header Section End-->
+        <!-- Main Section  -->
+        <div class="bodyContent-topbg">
+            <div id="popout" class="hidden">
+                <ul class="nav navbar-nav slider-nav">
+                    <li>
+                        <a href="#" class="user-icon slider-user-cion"></a>
+                    </li>
+                    <li><a href="#">Welcome Guest</a></li>  
+                    <li><a href="#">Login</a></li>
+                    <li><a href="company">Company</a></li>
+                </ul>
+
+            </div>
+
+            <div class="content-wrapper">
+                <!-- Carousel Start  -->
+                <div id="carousel-example-generic" class="carousel" data-ride="carousel">
+                    <!-- Indicators -->
+                    <ol class="carousel-indicators carousel-indicators-positioning">
+                        <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                        <li data-target="#carousel-example-generic" data-slide-to="1" ></li>
+                        <li data-target="#carousel-example-generic" data-slide-to="2" ></li>
+                        <li data-target="#carousel-example-generic" data-slide-to="3" ></li>
+                    </ol>
+
+                    <!-- Wrapper for slides -->  
+                    <div class="carousel-inner carousel-inner-background">
+                        <!--Slide 1  -->
+                        <div class="item active carousel-content-div">
+                            <span class="carousel-header">FREE MEMBERSHIP</span> 
+                            <div class="carousel-body">
+                                Not a VentureSource Pro User?<br>
+                                You can still gain access to powerful tools like your own Private Markets watchlist and custome <br>
+                                Simply connect with your <span class="carousel-links">LinkedIn</span> account or <span class="carousel-links">Register</span> here
+                            </div>
+                        </div>
+                        <!-- Slide 2 -->
+                        <div class="item carousel-content-div">
+                            <span class="carousel-header">MORE ON DOW JONES</span> 
+                            <div class="carousel-body">
+                                Not a VentureSource Pro User?<br>
+                                You can still gain access to powerful tools like your own <span class="carousel-links">Private Markets</span> watchlist and custome <br>
+                                Simply connect with your COMPANY DETAILS account or  here
+                            </div>
+                        </div>
+                        <!--Slide 3  -->
+                        <div class="item carousel-content-div">
+                            <span class="carousel-header">MORE ON VS</span> 
+                            <div class="carousel-body">
+                                Not a VentureSource Pro User?<br>
+                                You can still gain access to powerful tools like your own Private Markets watchlist and custome <br>
+                                Simply connect with your <span class="carousel-links">COMPANY DETAILS</span> account or  here
+                            </div>
+                        </div>
+                        <!--Slide 4  -->
+                        <div class="item carousel-content-div">
+                            <span class="carousel-header">DOW JONES HISTORY</span> 
+                            <div class="carousel-body">
+                                Not a VentureSource Pro User?<br>
+                                You can still gain access to powerful tools like your own Private Markets watchlist and custome <br>
+                                Simply connect with your here
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--Carousel Controls -->
+                    <a class="left carousel-control carousel-control-positioning" href="#carousel-example-generic" role="button" data-slide="prev">
+                    </a>
+                    <a class="right carousel-control carousel-control-positioning" href="#carousel-example-generic" role="button" data-slide="next">
+                    </a>
+                </div>
+
+                <!--Carousel Ends-->
+
+                <!-- Main Content Start -->
+                <div class="row mobile-full-pane"> 
+                    <div class="col-sm-9 strech-column-rightmost reduce-leftmost">
+                        <!-- Investment Section Start -->
+                        <div class="center-pane-blue-surround" >
+                            <div class="center-pane-header-area">
+                                <div class="heading-text font-bold-heavyheader">Investment By Region</div>
+                                <div class="switch-toggle well  toggle-pane">
+                                    <input id="week" name="view"  type="radio" checked>
+                                    <label for="week" class="toggle-label" onclick="">USA</label>
+                                    <input id="month" name="view" type="radio" >
+                                    <label for="month" class="toggle-label" onclick="">Europe</label>
+                                    <a class="btn btn-primary toggle-btn"></a>
+                                </div>
+                            </div>
+                            <div class="middle-white-area">
+                                <div class="row mobile-full-pane"> 
+                                    <div class="col-sm-5">
+
+                                        <img class="europemap img-responsive center-block" src="images/landingPage/europe.jpg" alt="Map" width="271"   />
+                                        <img class="usa-map img-responsive center-block" src="images/landingPage/Map_image.jpg" alt="Map" width="271"   />
+
+                                    </div>  
+                                    <div class="col-sm-7 no-padding">
+                                        <div id="chart">
+                                            <ul id="numbers">
+                                                <li>
+                                                    <span class="font-black-smalltext">200</span>
+                                                </li>
+                                                <li>
+                                                    <span class="font-black-smalltext">180</span>
+                                                </li>
+                                                <li>
+                                                    <span class="font-black-smalltext">160</span>
+                                                </li>
+                                                <li>
+                                                    <span class="font-black-smalltext">140</span>
+                                                </li>
+                                                <li>
+                                                    <span class="font-black-smalltext">120</span>
+                                                </li>
+                                                <li>
+                                                    <span class="font-black-smalltext">100</span>
+                                                </li>
+                                                <li>
+                                                    <span class="font-black-smalltext">&nbsp;80</span>
+                                                </li>
+                                                <li>
+                                                    <span class="font-black-smalltext">&nbsp;60</span>
+                                                </li>
+                                                <li>
+                                                    <span class="font-black-smalltext">&nbsp;40</span>
+                                                </li>
+                                                <li>
+                                                    <span class="font-black-smalltext">&nbsp;20</span>
+                                                </li>
+                                                <li>
+                                                    <span class="font-black-smalltext">&nbsp;&nbsp;0</span>
+                                                </li>
+                                            </ul>
+
+                                            <ul id="bars"> 
+                                                <li><div  class="bar bar1" data-percentage="172" ></div>
+                                                </li> 
+                                                <li><div class="bar bar2" data-percentage="169" ></div>
+                                                </li>
+                                                <li><div data-percentage="106" class="bar bar3"></div>
+                                                </li>
+                                                <li><div data-percentage="84" class="bar bar4"></div>
+                                                </li>
+                                                <li><div data-percentage="80" class="bar bar5"></div>
+                                                </li>
+
+                                            </ul>
+                                            <ul class="nav navbar-nav graph-x-axis">
+                                                <li class="graph-x-title-area">
+                                                    <div class="fixed-size-square fixed-size-square1"></div>
+                                                    <div class="font-black-smalltext graph-x-title">Online Communities</div>
+                                                </li>
+                                                <li class="graph-x-title-area">
+                                                    <div class="fixed-size-square fixed-size-square2"></div>
+                                                    <div class="font-black-smalltext graph-x-title">Entertainment</div>
+                                                </li>
+                                                <li class="graph-x-title-area">
+                                                    <div class="fixed-size-square fixed-size-square3"></div>
+                                                    <div class="font-black-smalltext graph-x-title">Shopping Facilities</div>
+                                                </li>
+                                                <li class="graph-x-title-area">
+                                                    <div class="fixed-size-square fixed-size-square4"></div>
+                                                    <div class="font-black-smalltext graph-x-title">Advertising/Marketing</div>
+                                                </li>
+                                                <li class="graph-x-title-area">
+                                                    <div class="fixed-size-square fixed-size-square5"></div>
+                                                    <div class="font-black-smalltext graph-x-title">Business Application Software</div>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>  
+                                </div>  
+                            </div>  
+                        </div>
+                        <!-- Investment Section Ends -->
+                        <!-- Fund Raising Section Start   -->
+                        <div class="center-pane-blue-surround" >
+                            <div class="center-pane-header-area">
+                                <span class="font-bold-heavyheader">Fund Raising Activity</span>
+                            </div>
+                            <div class="middle-white-area">
+                                <div class="row mobile-full-pane">
+                                    <div class="col-sm-5">
+                                        <div class="pie-chart-space" >
+                                            <div id="pieChart" class="chart">   
+                                            </div>
+                                            <div class="pie-index">
+                                                <ul class="nav navbar-nav graph-x-axis">
+                                                    <li class="graph-x-title-area">
+                                                        <div class="fixed-size-bigsquare fixed-size-square6"></div>
+                                                        <div class="font-black-smalltext graph-x-title">California</div>
+                                                    </li>
+                                                    <li class="graph-x-title-area">
+                                                        <div class="fixed-size-bigsquare fixed-size-square1"></div>
+                                                        <div class="font-black-smalltext graph-x-title">Texas</div>
+                                                    </li>
+                                                    <li class="graph-x-title-area">
+                                                        <div class="fixed-size-bigsquare fixed-size-square8"></div>
+                                                        <div class="font-black-smalltext graph-x-title">Massachusetts</div>
+                                                    </li>
+                                                    <li class="graph-x-title-area">
+                                                        <div class="fixed-size-bigsquare fixed-size-square2"></div>
+                                                        <div class="font-black-smalltext graph-x-title">New York</div>
+                                                    </li>
+                                                    <li class="graph-x-title-area">
+                                                        <div class="fixed-size-bigsquare fixed-size-square7"></div>
+                                                        <div class="font-black-smalltext graph-x-title">Colorado</div>
+                                                    </li>
+                                                </ul>
+                                            </div> 
+                                        </div> 
+
+                                    </div>  
+                                    <div class="col-sm-7 no-padding">
+                                        <div id="chart-static">
+                                            <ul id="numbers-static">
+                                                <li>
+                                                    <span class="font-black-smalltext">200</span>
+                                                </li>
+                                                <li>
+                                                    <span class="font-black-smalltext">180</span>
+                                                </li>
+                                                <li>
+                                                    <span class="font-black-smalltext">160</span>
+                                                </li>
+                                                <li>
+                                                    <span class="font-black-smalltext">140</span>
+                                                </li>
+                                                <li>
+                                                    <span class="font-black-smalltext">120</span>
+                                                </li>
+                                                <li>
+                                                    <span class="font-black-smalltext">100</span>
+                                                </li>
+                                                <li>
+                                                    <span class="font-black-smalltext">&nbsp;80</span>
+                                                </li>
+                                                <li>
+                                                    <span class="font-black-smalltext">&nbsp;60</span>
+                                                </li>
+                                                <li>
+                                                    <span class="font-black-smalltext">&nbsp;40</span>
+                                                </li>
+                                                <li>
+                                                    <span class="font-black-smalltext">&nbsp;20</span>
+                                                </li>
+                                                <li>
+                                                    <span class="font-black-smalltext">&nbsp;&nbsp;0</span>
+                                                </li>
+                                            </ul>
+
+                                            <ul id="bars-static"> 
+                                                <li><div  class="bar bar1" data-percentage="172" ></div>
+                                                </li> 
+                                                <li><div class="bar bar2" data-percentage="169" ></div>
+                                                </li>
+                                                <li><div data-percentage="106" class="bar bar3"></div>
+                                                </li>
+                                                <li><div data-percentage="84" class="bar bar4"></div>
+                                                </li>
+                                                <li><div data-percentage="80" class="bar bar5"></div>
+                                                </li>
+
+                                            </ul>
+                                            <ul class="nav navbar-nav graph-x-axis">
+                                                <li class="graph-x-title-area">
+                                                    <div class="fixed-size-square fixed-size-square1"></div>
+                                                    <div class="font-black-smalltext graph-x-title">Online Communities</div>
+                                                </li>
+                                                <li class="graph-x-title-area">
+                                                    <div class="fixed-size-square fixed-size-square2"></div>
+                                                    <div class="font-black-smalltext graph-x-title">Entertainment</div>
+                                                </li>
+                                                <li class="graph-x-title-area">
+                                                    <div class="fixed-size-square fixed-size-square3"></div>
+                                                    <div class="font-black-smalltext graph-x-title">Shopping Facilities</div>
+                                                </li>
+                                                <li class="graph-x-title-area">
+                                                    <div class="fixed-size-square fixed-size-square4"></div>
+                                                    <div class="font-black-smalltext graph-x-title">Advertising/Marketing</div>
+                                                </li>
+                                                <li class="graph-x-title-area">
+                                                    <div class="fixed-size-square fixed-size-square5"></div>
+                                                    <div class="font-black-smalltext graph-x-title">Business Application Software</div>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>  
+                            </div>     
+                        </div>
+                        <!-- Fund Raising Section ENDS   -->
+                        <!-- News Section Start   -->
+                        <div class="center-pane-blue-surround" >
+                            <div class="center-pane-blue-header-area">
+                                <span class="font-bold-heavyheader">Latest News</span>
+                            </div>
+                            <div class="middle-white-area">
+                                <hr class="hori-ruler-withoutpadding   mobile-hide-pane"/>
+                                <div  class="heading-news">
+                                    <table class="table">
+                                        <tr>
+                                            <td class="tb-remove-border news-image-side  no-padding">
+                                                <img src="images/landingPage/latest-news-thumbnail.png"  alt="latest-news-thumbnail">
+                                            </td>   
+                                            <td class="tb-remove-border news-content-side  no-padding-left">
+                                                <div class="content-header font-boldblue-header reduce-top-margin add-bottom-margin ">Hub Spot IPO Prices above increased price range</div>
+
+                                                <div class="font-semilight-hideentext reduce-top-margin add-bottom-bigmargin">13 October, 2014</div>
+
+                                                Lorem ipsum dolor sit amet,consectetuer adipiscing elit,sed diam
+                                                nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat
+                                                volutpat. Ut wisi enim liquam erat
+                                                volutpat. Ut wisi enim 
+                                            </td>   
+                                        </tr>
+                                    </table>
+
+                                </div>     
+                                <div class="clearfix"></div>
+
+                                <div class="row mobile-full-pane reduce-margin-left">    
+                                    <div class="col-sm-4 column-div-pane-normal">
+                                        <table class="table add-bottom-margin">
+                                            <tr>
+                                                <td class="tb-remove-border reduce-top-padding no-padding-left">
+                                                    <div class="news-bullets"></div>
+                                                </td>
+
+                                                <td class="tb-remove-border table-side-border no-padding-side">
+                                                    <div class="font-semiboldblue-header reduce-top-margin">Lorem ip sum dolor sit amet, con sectetuer adipiscing elit,</div>
+                                                    <span class="font-semilight-hideentext">08 October,2014</span>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </div>
+                                    <div class="col-sm-4 column-div-pane-normal add-mobile-border">
+                                        <table class="table add-bottom-margin">
+                                            <tr>
+                                                <td class="tb-remove-border no-padding-left">
+                                                    <div class="news-bullets"></div>
+                                                </td>
+
+                                                <td class="tb-remove-border table-side-border no-padding-side">
+                                                    <div class="font-semiboldblue-header reduce-top-margin">Lorem ip sum dolor sit amet, con sectetuer adipiscing elit,</div>
+                                                    <span class="font-semilight-hideentext">08 October,2014</span>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </div>
+                                    <div class="col-sm-4 column-div-pane-normal add-mobile-border ">
+                                        <table class="table add-bottom-margin">
+                                            <tr > 
+                                                <td class="tb-remove-border no-padding-left">
+                                                    <div class="news-bullets"></div>
+                                                </td>
+
+                                                <td class="tb-remove-border no-padding-left">
+                                                    <div class="font-semiboldblue-header reduce-top-margin">Lorem ip sum dolor sit amet, con sectetuer adipiscing elit,</div>
+                                                    <span class="font-semilight-hideentext">08 October,2014</span>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </div>
+                                </div>
+                            </div> 
+                        </div>    
+                        <!-- News Section End   -->
+                        <!-- Blog Section Start   -->
+                        <div class="center-pane-blue-surround" >
+                            <div class="center-pane-blue-header-area">
+                                <span class="font-bold-heavyheader">Blogs</span>
+                            </div>
+                            <div class="middle-white-area">
+
+                                <hr class="hori-ruler-withoutpadding   mobile-hide-pane"/>
+
+                                <div class="row blog-pane-reduce">
+                                    <div class="col-sm-6 add-padding-left">
+                                        <div class="blogheading font-boldblue-header">VENTURE CAPITAL </div> 
+                                        <table class="table table-emptymargin">
+                                            <tr > 
+                                                <td class="tb-remove-border no-padding">
+                                                    <span class="blog-image"><img src="images/landingPage/blogs-thumbnail.png" width="49" height="49" alt="blog"></span>
+                                                </td>
+                                                <td class="tb-remove-border no-padding-left">
+                                                    <div class="font-semilight-text reduce-top-minmargin">Checkr Raises $9 Million Led by Accel
+                                                        for New-Hire Background Checks</div>
+                                                    <div class="font-semilight-hideentext">
+                                                        Lizette Chapman <span class="floatRight"> 13 October,2014</span>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                        <hr class="hori-ruler"/>
+                                        <table class="table table-emptymargin">
+                                            <tr > 
+                                                <td class="tb-remove-border no-padding">
+                                                    <span class="blog-image"><img src="images/landingPage/blogs-thumbnail.png" width="49" height="49" alt="blog"></span>
+                                                </td>
+                                                <td class="tb-remove-border no-padding-left">
+                                                    <div class="font-semilight-text reduce-top-minmargin">Checkr Raises $9 Million Led by Accel
+                                                        for New-Hire Background Checks</div >
+                                                    <div class="font-semilight-hideentext">
+                                                        Lizette Chapman <span class="floatRight"> 13 October,2014</span>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                        <hr class="hori-ruler"/>
+                                        <table class="table table-emptymargin">
+                                            <tr > 
+                                                <td class="tb-remove-border no-padding">
+                                                    <span class="blog-image"><img src="images/landingPage/blogs-thumbnail.png" width="49" height="49" alt="blog"></span>
+                                                </td>
+                                                <td class="tb-remove-border no-padding-left">
+                                                    <div class="font-semilight-text reduce-top-minmargin">Checkr Raises $9 Million Led by Accel
+                                                        for New-Hire Background Checks</div >
+                                                    <div class="font-semilight-hideentext">
+                                                        Lizette Chapman <span class="floatRight"> 13 October,2014</span>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                        <hr class="hori-ruler"/>
+                                        <table class="table table-emptymargin">
+                                            <tr > 
+                                                <td class="tb-remove-border no-padding">
+                                                    <span class="blog-image"><img src="images/landingPage/blogs-thumbnail.png" width="49" height="49" alt="blog"></span>
+                                                </td>
+                                                <td class="tb-remove-border no-padding-left">
+                                                    <div class="font-semilight-text reduce-top-minmargin">Checkr Raises $9 Million Led by Accel
+                                                        for New-Hire Background Checks</div >
+                                                    <div class="font-semilight-hideentext">
+                                                        Lizette Chapman <span class="floatRight"> 13 October,2014</span>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                        <div class="viewmore-common">
+                                            <div class="alignRight"><a href="#" class="font-boldblue-smalltext">View More ></a></div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-sm-6 blog-right-side">
+                                        <div class="blogheading font-boldblue-header"> PRIVATE EQUITY BEAT</div>
+
+                                        <table class="table table-emptymargin">
+                                            <tr > 
+                                                <td class="tb-remove-border no-padding">
+                                                    <span class="blog-image"><img src="images/landingPage/blogs-thumbnail.png" width="49" height="49" alt="blog"></span>
+                                                </td>
+                                                <td class="tb-remove-border no-padding-left">
+                                                    <div class="font-semilight-text reduce-top-minmargin">Checkr Raises $9 Million Led by Accel
+                                                        for New-Hire Background Checks</div >
+                                                    <div class="font-semilight-hideentext">
+                                                        Lizette Chapman <span class="floatRight"> 13 October,2014</span>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                        <hr class="hori-ruler"/>
+                                        <table class="table table-emptymargin">
+                                            <tr > 
+                                                <td class="tb-remove-border no-padding">
+                                                    <span class="blog-image"><img src="images/landingPage/blogs-thumbnail.png" width="49" height="49" alt="blog"></span>
+                                                </td>
+                                                <td class="tb-remove-border no-padding-left">
+                                                    <div class="font-semilight-text reduce-top-minmargin">Checkr Raises $9 Million Led by Accel
+                                                        for New-Hire Background Checks</div >
+                                                    <div class="font-semilight-hideentext">
+                                                        Lizette Chapman <span class="floatRight"> 13 October,2014</span>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                        <hr class="hori-ruler"/>
+                                        <table class="table table-emptymargin">
+                                            <tr > 
+                                                <td class="tb-remove-border no-padding">
+                                                    <span class="blog-image"><img src="images/landingPage/blogs-thumbnail.png" width="49" height="49" alt="blog"></span>
+                                                </td>
+                                                <td class="tb-remove-border no-padding-left">
+                                                    <div class="font-semilight-text reduce-top-minmargin">Checkr Raises $9 Million Led by Accel
+                                                        for New-Hire Background Checks</div >
+                                                    <div class="font-semilight-hideentext">
+                                                        Lizette Chapman <span class="floatRight"> 13 October,2014</span>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                        <hr class="hori-ruler"/>
+                                        <table class="table table-emptymargin">
+                                            <tr > 
+                                                <td class="tb-remove-border no-padding">
+                                                    <span class="blog-image"><img src="images/landingPage/blogs-thumbnail.png" width="49" height="49" alt="blog"></span>
+                                                </td>
+                                                <td class="tb-remove-border no-padding-left">
+                                                    <div class="font-semilight-text reduce-top-minmargin">Checkr Raises $9 Million Led by Accel
+                                                        for New-Hire Background Checks</div >
+                                                    <div class="font-semilight-hideentext">
+                                                        Lizette Chapman <span class="floatRight"> 13 October,2014</span>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                        <div class="viewmore-common">
+                                            <div class="alignRight"><a href="#" class="font-boldblue-smalltext">View More ></a></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Blog Section End  -->
+                    </div>
+                    <!-- Main Section End   -->
+                    <!-- Side Section Start   -->
+                    <div class="col-sm-3 strech-column-rightmost strech-rightmost">
+                        <div class="advertisement-area middle-white-area">
+                            <img src="images/landingPage/advertisement1.png" class="image-full-span"  alt="blog">
+                        </div>
+                        <div class="advertisement-area middle-white-area mobile-hide-pane">
+                            <img src="images/landingPage/advertisement-placeholder.png" class="image-full-span"  alt="blog">
+                        </div>
+                        <div class="advertisement-area middle-white-area  mobile-hide-pane">
+                            <img src="images/landingPage/advertisement2.png" class="image-full-span"  alt="blog">
+                        </div>
+                        <div class="advertisement-area middle-white-area">
+                            <div class="advertisement-header-area">
+                                <span class="font-bold-bigheader">NEWSLETTER PROMO</span>
+                            </div>
+                            <img src="images/landingPage/newsletter-promo.png" class="image-full-span"  alt="blog">
+                        </div>
+                        <div class="advertisement-area middle-white-area mobile-hide-pane">
+                            <div class="advertisement-headerorange-area">
+                                <span class="font-bold-bigheader">Venture</span><span class="font-semibold-header">Source Pro</span>
+                            </div>
+
+                            <div class="text-content-side font-semilight-text">
+
+                                <div class="margin-down-20px">Lorem ipsum dolor sit amet,consectetuer adipiscing elit, sed diam
+                                    nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat
+                                    volutpat. Ut wisi enim
+
+                                    Lorem ipsum dolor sit amet,consectetuer </div>
+
+
+                                <ul class="font-semiboldblue-text reduce-padding-left">
+                                    <li class="margin-down-20px">Lorem ipsum dolor sit amet</li>
+                                    <li class="margin-down-20px">Lorem ipsum dolor sit amet sape</li>
+                                    <li class="margin-down-20px">Lorem ipsum dolor sit amet</li>
+                                </ul>
+                                <div class="padding-top-16px font-semiboldblack-text" >Free Trial </div>
+                                <div class="margin-down-20px">Lorem ipsum dolor sit amet,consectetuer adipiscing elit, sed diam
+                                    nonummy ,consectetuer adipiscing elit, sed diam
+                                    nonummy</div>
+                                <button type="submit" class="btn button-side-span font-semibold-header">Request Free Trial</button>
+                                <div class="alignRight viewmore-right"><a href="#" class="font-boldblue-smalltext">View More ></a></div>
+                            </div>
+
+                        </div>     
+
+                    </div>
+                    <!-- Side Section End   -->
+                </div>
+            </div>
+        </div>
+        <!-- Main Section End-->
+        <!-- Footer Section Starter-->
+        <footer class="fix-bottom"> 
+            <div class="grey-footer">
+                <div class="content-wrapper">
+                    <div id="social-media-icons" class="media-icons-container">
+                        <img src="./images/globalElements/social-media-icon-twitter.png" alt="ICON" width="25" height="25"/>
+                        <img src="./images/globalElements/social-media-icon-facebook.png" alt="ICON" width="25" height="25" class="center-image-align"/>
+                        <img src="./images/globalElements/social-media-icon-linkedin.png" alt="ICON" width="25" height="25"/>
+                    </div>
+                    <div class="footer-brand">VentureSource</div>
+                    <div class="footer-text">
+                        <span>For help on VentureSource , emal Client Services at <a href="#">abc@def.com</a></span> 
+                        <br>
+                        <span>Or call 1-800-DOW JONES +44 (0) 123 456 7890 [Europe-Israel]</span></div>
+                </div>
+            </div>
+            <div class="dark-footer">
+                <div class="content-wrapper copyright-text">
+                    &copy; <span>Copyright 2014 &nbsp; <a>Dow Jones &amp; Company</a></span> &nbsp; <span>All rights reserved</span>
+                </div>
+            </div>
+        </footer>
+        <!-- Footer Section Ends-->
+    </body>
 </html>

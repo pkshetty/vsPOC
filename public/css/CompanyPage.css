@@ -1,0 +1,476 @@
+/* Icon Style Starts ----------- */
+.icon-group-general
+{
+    padding-left:10px;
+    font-family: Segoe UI;
+    font-weight: Bold;
+    font-size: 14px ;
+    color :	#ffffff; 
+}
+.icon-group-random
+{
+    padding-top:55px;
+    float : left;
+}
+.icon-group-social-media
+{
+    padding-top:20px;
+    float : left;
+}
+.icon-group-notification
+{
+    float : right;
+    padding-right:10px;
+}
+.icon-general 
+{
+    height: 25px;
+    width: 25px;
+    margin: 0px 3px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 25px; 
+    display: inline-block; 
+}
+.icon-yellow
+{
+    background: url("../images/compagePage/icon-yellow.png")  no-repeat !important;
+}
+.icon-green
+{
+    background: url("../images/compagePage/icon-green.png")  no-repeat !important;
+}
+.icon-purple
+{
+    background: url("../images/compagePage/icon-purple.png")  no-repeat !important;
+}
+.icon-orange
+{
+    background: url("../images/compagePage/icon-orange.png")  no-repeat !important;
+}
+.icon-noti1
+{
+    background: url("../images/compagePage/notification-icon1.png")  no-repeat !important;
+}
+.icon-noti2
+{
+    background: url("../images/compagePage/notification-icon2.png")  no-repeat !important;
+}
+.icon-noti3
+{
+    background: url("../images/compagePage/notification-icon3.png")  no-repeat !important;
+}
+.icon-social-media
+{
+    background: url("../images/globalElements/social-media-icon.png")  no-repeat !important;
+}
+.icon-social-twitter
+{
+    background: url("../images/globalElements/social-media-icon-twitter.png")  no-repeat !important;
+}
+.icon-social-facebook
+{
+    background: url("../images/globalElements/social-media-icon-facebook.png")  no-repeat !important;
+}
+.icon-social-linkin
+{
+    background: url("../images/globalElements/social-media-icon-linkedin.png")  no-repeat !important;
+}
+.icon-pin
+{
+    background: url("../images/compagePage/pin-icon.png")  no-repeat !important;
+}
+/* Icon Style Ends ----------- */
+
+
+/* Menu Style Starts ----------- */
+
+.nav-menu.nav-menu>a , .nav-menu.nav-menu>a:HOVER, .nav-menu.nav-menu>a:FOCUS
+{
+    color :	#ffffff; 
+    height:40px;
+    padding: 10px 10px;
+}
+
+.nav-menu
+{
+    background-color: #14abf1; 
+    font-family: Segoe UI;
+    font-weight: 400;
+    font-size: 16px ;
+    height:40px;
+    border-bottom : 1px solid #108bc4; 
+    border-left : 1px solid #108bc4; 
+
+}
+.nav-menu-active
+{
+    border-bottom : 0px; 
+    border-left : 0px; 
+    background: transparent url("../images/searchPage/selected-tab-arrow.png")  no-repeat scroll center bottom;
+    background-color: #43bcf4; 
+    margin: 0;
+}
+
+.nav-want-more
+{
+    margin-top:5px;
+    margin-right:5px;
+    height: 30px;
+    padding : 5px 10px 5px 10px;
+    font-size: 14px ;
+    font-weight: bold;
+    color :	#ffffff; 
+    background: #ff633a no-repeat;
+    border: 1px solid transparent;
+    vertical-align: middle;
+}
+.container > .navbar-header, .container-fluid > .navbar-header, .container > .navbar-collapse, .container-fluid > .navbar-collapse{
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.top-menu-nav
+{
+    padding-left: 0px;
+}
+.expandable-top-menu-div{
+    padding-left: 0px;
+}
+
+.nav-mob-menus
+{
+    margin:0px 0px;
+}
+/* Menu Style Ends ----------- */
+
+
+/* Table Style Starts ----------- */
+.table-general
+{
+    margin-top: 16px; 
+}
+.table > tbody > tr > td.tb-remove-border
+{
+    border-top : 0px;
+}
+.tb-bold
+{
+    font-weight: 600;
+}
+.tb-common 
+{
+    padding-top: 10px; 
+    padding-bottom: 10px; 
+    font-family: Segoe UI;
+    font-weight: normal;
+    font-size: 14px ;
+}
+.tb-gray-color
+{
+    background-color: #d5d5d5; 
+    color :	#000000; 
+}
+.tb-lightgray-color
+{
+    background-color: #e5e5e5; 
+    color :	#333333; 
+}
+.tb-blue-border
+{
+    border-bottom : 4px solid #158cc6;
+}
+.tb-green-border
+{
+    border-bottom : 4px solid #96cc43;
+}
+.tb-darkgray-border
+{
+    border-bottom : 4px solid #a1a1a1;
+}
+
+/* Table Style Ends ----------- */
+
+
+/* Section Style Starts ----------- */
+
+.top-sections
+{
+    margin-right:30px;
+    margin-top:5px;
+}
+.headings-section
+{
+    font-family: Segoe UI;
+    font-weight: 600;
+    font-size: 16px ;
+    color :	#333333; 
+}
+.heading-orange-text
+{
+    font-family: Segoe UI;
+    font-weight: 700;
+    font-size: 18px ;
+    color :	#fa8a06; 
+}
+/* Section Style Ends ----------- */
+
+.box-logo
+{
+    background: url("../images/compagePage/box-logo.png")   no-repeat !important;
+    height:83px;
+}
+.main-menu
+{
+    margin-top : 30px;
+    height:40px;
+    background-color: #14abf1; 
+}
+.main-menus
+{
+    margin-top : 30px;
+    background-color: #14abf1; 
+}
+
+.column-div-pane-normal
+{
+    padding: 0px 0px 0px 0px;;
+    margin-left: -1px;
+}
+.headings-section-shift
+{
+    padding-left:9px;	
+}
+.main-content-pane
+{
+    background-color: #041928;	 
+    padding: 10px;
+}
+.main-content-white-pane
+{
+    padding: 10px;
+    padding-top: 16px;
+    background: #ffffff;
+}
+
+.button-entire-span
+{
+    width:100%;
+    height: 40px;
+    margin-top:-100px;
+    padding : 5px 10px 5px 10px;
+    font-size: 14px ;
+    font-weight: 500;
+    color :	#ffffff; 
+    background: #ff633a no-repeat;
+    border: 1px solid transparent;
+    vertical-align: middle;
+}
+
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-width : 321px) and (max-width : 767px) {
+
+    .icon-group-random{
+        padding-top:0px;
+        padding-left:0px;
+    }
+    .box-logo
+    {
+        background: url("../images/compagePage/box-logo.png")   no-repeat -90px -50px !important;
+        height:43px;
+    }
+    .mobile-visible-pane
+    {
+        display: inherit;
+    }
+    .nav>.nav-menu-active
+    {
+        display: none;
+    }
+    .container > .navbar-header, .container-fluid > .navbar-header, .container > .navbar-collapse, .container-fluid > .navbar-collapse
+    {
+        padding-top:10px;
+        margin-left: -10px;
+        margin-right: -15px;
+    }
+    .top-menu-div
+    {
+        padding-left:0px;
+        padding-right:0px
+    }
+    .main-menus
+    {	
+        margin-top : 0px;
+        background-color: #FFFFFF;
+    }
+    .nav-menus
+    {
+        margin: 0px -15px 0px 0px;
+    }
+    .nav-menu.nav-menu>a:HOVER, .nav-menu.nav-menu>a:FOCUS
+    {
+        background-color: #43bcf4; 
+    }
+    .nav-mob-menu>a:HOVER, .nav-mob-menu>a:FOCUS
+    {
+        background-color: #43bcf4; 
+    }
+    .column-div-pane
+    {
+        margin-right:-15px;
+    }
+    .column-div-pane-normal
+    {
+        padding: 0px 15px;
+        margin-right:-15px;
+    }
+    .headings-section-shift
+    {
+        padding-left:0px;	
+    }
+    .main-content-pane 
+    {
+        background: none;
+        padding:0px;
+    }
+
+    .main-content-white-pane
+    {
+        padding: 10px 0px 0px 10px;
+    }
+    .button-want-more
+    {
+        float : right;
+    }
+    .nav-want-more {
+        margin-right:0px;
+    }
+    .nav-menu.nav-menu>a , .nav-menu.nav-menu>a:HOVER, .nav-menu.nav-menu>a:FOCUS
+    {	
+        padding: 10px 10px 10px 15px;
+    }
+    .menu-mobile
+    {	
+        margin-left: -5px;
+    }
+    .button-entire-span
+    {
+        margin-top:0px;
+        margin-bottom:10px;
+    }
+}
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen and (min-width : 768px) and (max-width : 1023px) {
+    .bodyContent-topbg
+    {
+        padding: 10px;
+    }
+    .content-wrapper {
+        width: 735px;
+        margin: 0px auto;
+    }
+    .searchbox {
+        height: 39px;
+        width: 250px;
+        background: url("../images/globalElements/search-bg.png") repeat;
+        margin: 19.5px auto;
+        border: 1px solid transparent;
+    }
+    .search-container {
+        padding: 0px 26.5px;
+    }
+    .mobile-visible-pane
+    {
+        display: none;
+    }
+    .nav-menu.nav-menu > a, .nav-menu.nav-menu > a:hover, .nav-menu.nav-menu > a:focus
+    {
+        padding: 10px 6px;
+    }
+    .nav-want-more
+    {
+        margin: 5px 5px  5px 0px;
+    }
+    .button-want-more
+    {
+        padding-left:0px;
+        padding-right:15px;
+    }
+    .table-min-height
+    {
+        height: 320px;
+    }
+    .table-min-height-150
+    {
+        height: 150px;
+    }
+    .nav-menu.nav-menu>a:HOVER, .nav-menu.nav-menu>a:FOCUS
+    {
+        background-color: #43bcf4; 
+        background: transparent url("../images/searchPage/selected-tab-arrow.png")  no-repeat scroll center bottom;
+        margin: 0;
+    }
+}
+
+/* Desktops and laptops ----------- */
+@media only screen and (min-width : 1024px) {
+    .bodyContent-topbg
+    {
+        padding: 10px;
+    }
+    .content-wrapper {
+        width: 980px;
+        margin: 0px auto;
+    }
+    .searchbox {
+        height: 39px;
+        width: 464px;
+        background: url("../images/globalElements/search-bg.png") repeat;
+        margin: 19.5px auto;
+        border: 1px solid transparent;
+    }
+    .search-container {
+        padding: 0px 37px;
+    }
+    .mobile-visible-pane
+    {
+        display: none;
+    }
+    .table-min-height
+    {
+        height: 290px;
+    }
+    .nav-menu.nav-menu>a:HOVER, .nav-menu.nav-menu>a:FOCUS
+    {
+        background-color: #43bcf4; 
+        background: transparent url("../images/searchPage/selected-tab-arrow.png")  no-repeat scroll center bottom;
+        margin: 0;
+    }
+}
+
+
+
+.main-content
+{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+
+
+.link-styles
+{
+    font-family: Segoe UI;
+    font-weight: 600;
+    font-size: 14px ;
+    color :	#05b9c4; 
+    display : block;
+    padding-bottom:10px;
+}
+.link-styles-right
+{
+    float : right;
+    display: block;
+}
