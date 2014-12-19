@@ -1,7 +1,7 @@
 /**
  * vsBBProfileModel
  */
-define('vsBB/vsBBModel/vsBBProfileModel', ['backbone', 'jquery'],
+define('vsBB/Model/ProfileModel', ['backbone', 'jquery'],
 
   function (Backbone, $) {
     var vsBBProfileModel = Backbone.Model.extend({
@@ -17,5 +17,5 @@ define('vsBB/vsBBModel/vsBBProfileModel', ['backbone', 'jquery'],
         this.off();
       }
     });
-    return vsBBProfileModel;
+    return ProfileModel;
   });
