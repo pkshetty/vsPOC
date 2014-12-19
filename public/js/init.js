@@ -1,9 +1,12 @@
 require.config({
     paths: {
-        'jquery': '/javascripts/lib/jquery',
-        'underscore': '/javascripts/lib/underscore',
-        'hogan': '/javascripts/lib/underscore',
-        'backbone': '/javascripts/lib/backbone',
+        'jquery': 'vendor/jquery-1.11.1.min',
+        'text': 'lib/require-text',
+        'bootstrap': 'vendor/bootstrap.min',
+        'custom':'custom/custom',
+        'underscore': 'lib/underscore',
+        'hogan': 'lib/underscore',
+        'backbone': 'lib/backbone'
     },
     shim: {
         'jquery': {
@@ -20,5 +23,6 @@ require.config({
 });
 
 require(['vsBB/vsBBInit'], function(vsBBInit) {
+
     vsBBInit.init();
 });
