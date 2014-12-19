@@ -16,6 +16,7 @@
     "util":"0.10.3",
     "express-handlebars": "~1.1.0",
     "mustachex": "0.0.3",
+	"mustach-express": "1.3.21",
     "jsonfile": "2.0.0",
     "jade": "~1.6.0",
     "hogan-express": "0.5.x"
