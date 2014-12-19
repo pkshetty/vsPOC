@@ -5,18 +5,25 @@ var logger = require('morgan');
 var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
 
-var routes = require('./routes/index');
-
+var web = require('./routes/index');
+var apiSearch = require('./routes/api/search');
+var apiProfile = require('./routes/api/profile');
 var app = express();
 
-//  templates directory to 'views'
+/*//  templates directory to 'views'
 app.set('views', __dirname + '/views');
 
 // setup template engine - we're using Hogan-Express
 app.set('view engine', 'html');
 app.set('layout', 'layout');
 app.engine('html', require('hogan-express')); // https://github.com/vol4ok/hogan-express
+*/
 
+mustacheExpress = require('mustache-express');
+app.engine('html', mustacheExpress());          // register file extension mustache
+
+app.set('view engine', 'html');                 // register file extension for partials
+app.set('views', __dirname + '/views');
 
 // uncomment after placing your favicon in /public
 //app.use(favicon(__dirname + '/public/favicon.ico'));
@@ -25,8 +32,11 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
+app.use(express.static(path.join(__dirname, 'views')));
 
-app.use('/', routes);
+app.use('/', web);
+app.use('/api/profile', apiProfile);
+app.use('/api/search', apiSearch);
 //app.use('/cp', routes);
 
 // catch 404 and forward to error handler
