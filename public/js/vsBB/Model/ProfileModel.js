@@ -4,7 +4,7 @@
 define('vsBB/Model/ProfileModel', ['backbone', 'jquery'],
 
   function (Backbone, $) {
-    var vsBBProfileModel = Backbone.Model.extend({
+    var ProfileModel = Backbone.Model.extend({
       init: function (options) {
         this.cfg = $.extend({}, this.OPTIONS_CONFIG, options);
 
