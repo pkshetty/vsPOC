@@ -19,7 +19,7 @@ var router = express.Router();
 router.get('/', function(req, res, next) {
   //res.render('index.html', { title: 'Express11111',somevar: 'some variable' });
   //next();
-  res.render('index.html');
+  res.render('landing');
 });
 
 /*
