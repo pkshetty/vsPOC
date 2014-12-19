@@ -22,7 +22,7 @@ require.config({
     }
 });
 
-require(['backbone/profileSetup'], function (profileSetup) {
+require(['vsBB/ProfileSetup'], function (profileSetup) {
 
     profileSetup.init();
 });
