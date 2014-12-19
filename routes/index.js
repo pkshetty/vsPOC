@@ -18,24 +18,18 @@ var router = express.Router();
 /* GET home page. */
 router.get('/', function(req, res, next) {
   //res.render('index.html', { title: 'Express11111',somevar: 'some variable' });
-  //next();
-  res.render('landing');
+    //next();
+    var page = { title: 'VSPOC',page: 'Home',iconURL:'images/globalElements/dow-jones-icon.png' };
+    res.render('Home/landing', page);
 });
 
 /*
  * GET cp data.
  */
-router.get('/cp', function(req, res, next) {
-	var file = path.join(__dirname, '../data/cprofile_goog.json');
-	console.log("file----------->", file);
-	jf.readFile(file, function(err, fileData) {
-  		//res.json(fileData);
-  		console.log("fileData------>>1234.................................");
-  		//console.log("fileData------>>", fileData);
-  		res.render('cprofile.html', {"entityId":"entityId123"});
-  		//res.render('cprofile', obj);
-      //next();
-	});
+router.get('/company', function (req, res, next) {
+    //res.render('index.html', { title: 'Express11111',somevar: 'some variable' });
+    //next();
+    var page = { title: 'VSPOC', page: 'Company', iconURL: 'images/globalElements/dow-jones-icon.png' };
+    res.render('Profile/profilePage', page);
 });
-
 module.exports = router;
