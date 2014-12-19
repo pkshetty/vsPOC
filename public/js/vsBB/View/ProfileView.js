@@ -1,10 +1,10 @@
 /*global document setTimeout clearTimeout*/
 /*
- * vsBBProfileView
+ * ProfileView
  */
-define('vsBB/vsBBView/vsBBProfileView', ['backbone', 'hogan', 'jquery'],
+define('vsBB/View/ProfileView', ['backbone', 'hogan', 'jquery'],
   function (Backbone, Hogan, $) {
-    var vsBBProfileView = Backbone.View.extend({
+    var ProfileView = Backbone.View.extend({
 
       cfg: {
 
@@ -16,7 +16,7 @@ define('vsBB/vsBBView/vsBBProfileView', ['backbone', 'hogan', 'jquery'],
       },
 
       initialize: function (options) {
-        console.log('initialize vsBBProfileView');
+        console.log('initialize ProfileView');
 
 
       },
@@ -31,5 +31,5 @@ define('vsBB/vsBBView/vsBBProfileView', ['backbone', 'hogan', 'jquery'],
         if ($(this.cfg.emailBox).val() === '') return;
       }
     });
-    return vsBBProfileView;
+    return ProfileView;
   });
